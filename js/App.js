@@ -13,13 +13,13 @@ function AddTodos(e){
 }
 
 const TodoOutput = document.querySelector(".TodoOutput")
-AllTodo = AllTodo.forEach((todos, index) => {   
+    AllTodo.forEach((todos, index) => {   
     const render = `
     <div class="OutPutDiv">
         <div><input type="checkbox" name="CheckBox" id="checkbox"></div>
         <div> <input type="text" id="TodoText" value="${todos}"></div>
         <div class="Edit"><i class="fa fa-pencil" aria-hidden="true"></i></div>
-        <div class="Delete"><i id=${index} class="fa fa-trash Dell" aria-hidden="true"></i></div>
+        <button class="Delete" id=${index}><i class="fa fa-trash Dell" aria-hidden="true"></i></button>
     </div>
     `
     // console.log(AddTodo)

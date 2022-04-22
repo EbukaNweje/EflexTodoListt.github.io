@@ -112,6 +112,7 @@ button{
     font-size: 15px;
     color: rgb(83, 83, 83);
     margin-left: 25px;
+    background: none;
 }
 
 .btn{

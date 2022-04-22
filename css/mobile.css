@@ -1,0 +1,28 @@
+@media(max-width: 900px){
+    .TodoContainer{
+        width: 90%;
+    }
+    
+    .TodoInput{
+        width: 90%;
+    }
+
+    .TodoInput input{
+        margin-left: 20px;
+        width: 90%;
+    }
+
+
+    .OutPutDiv{
+        width: 99%;
+    }
+
+    #TodoText{
+        width: 210px;
+        margin-right: 10px;
+    }
+
+    .Delete{
+        margin-left: 5px;
+    }
+}
