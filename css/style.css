@@ -86,13 +86,13 @@ button{
     margin-bottom: 10px;
 }
 
-#checkbox{
+.checkbox{
     width: 20px;
     height: 20px;
     margin: 0px 5px;
 }
 
-#TodoText{
+.TodoText{
     width: 400px;
     height: 40px;
     margin: 0px 5px;
